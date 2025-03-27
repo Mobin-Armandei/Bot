@@ -5,7 +5,8 @@ const token = '7932955419:AAGotXY-CrZo1Nod9V5C0B80KcjDaZSdNTg';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', (msg) => {
-    const chatId = msg.chat.id;
+    console.log(msg);
+    // const chatId = msg.chat.id;
 
-    bot.sendMessage(chatId, 'سلام به ربات خوش آمدید.');
+    // bot.sendMessage(chatId, 'سلام به ربات خوش آمدید.');
 });
